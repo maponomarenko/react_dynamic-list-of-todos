@@ -18,7 +18,7 @@ export enum DropdownOptions {
 
 const handleFilter = (
   initialTodoList: Todo[],
-  completionStatusFilter: string,
+  completionStatusFilter: DropdownOptions,
   inputQuery: string,
 ) => {
   let result = [...initialTodoList];

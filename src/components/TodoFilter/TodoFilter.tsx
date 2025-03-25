@@ -5,7 +5,7 @@ interface Props {
   setCompletionStatusFilter: Dispatch<SetStateAction<DropdownOptions>>;
   setInputQuery: (arg: string) => void;
   inputQuery: string;
-  completionStatusFilter: string;
+  completionStatusFilter: DropdownOptions;
 }
 
 export const TodoFilter = ({
